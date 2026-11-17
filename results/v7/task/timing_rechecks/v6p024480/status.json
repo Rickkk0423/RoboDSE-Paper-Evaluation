@@ -1,0 +1,36 @@
+{
+  "identity": "51086f0e6b8fd0d7a0b8770f82a9e7bcd8f0182f3d3f52cf2a014bad7dcda380",
+  "point_id": "v6p024480",
+  "gate": {
+    "feasible": true,
+    "strict_periodic": true,
+    "pass_gate": true,
+    "L_drift_fraction": 1.7790366355787767e-11,
+    "queue_steady_max": 1,
+    "S_max_relative_error": 1.447109099217414e-11,
+    "adjacent_groups": {
+      "1": {
+        "pass_gate": true,
+        "max_error_s": 1.2860823517257813e-12,
+        "groups": 764
+      },
+      "2": {
+        "pass_gate": true,
+        "max_error_s": 2.1884716261411086e-12,
+        "groups": 382
+      }
+    },
+    "L_mean_s": 0.17816403581595772,
+    "S_mean_s": 0.08907341015625396,
+    "steady_requests": 764
+  },
+  "passed": true,
+  "relative_error": 4.0487388567165124e-12,
+  "python_compiled_error_s": 0.0,
+  "accounting": {
+    "passed": true,
+    "max_round_time_error_s": 9.396164402097895e-13,
+    "reconciled_dit_GB_per_req": 3.295936512
+  },
+  "raw_sha256": "c8c618d9907942e71d4ef450f9091c9b0b14bc17daefa78f82f215e6df8c90aa"
+}

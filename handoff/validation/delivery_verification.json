@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "historical": {
+    "passed": true,
+    "deliveries": [
+      {
+        "root": "results/v6",
+        "checked": 38748,
+        "passed": true
+      },
+      {
+        "root": "results/v5_1",
+        "checked": 80947,
+        "passed": true
+      },
+      {
+        "root": "results/v5",
+        "checked": 249,
+        "passed": true
+      },
+      {
+        "root": "results/v4",
+        "checked": 383,
+        "passed": true
+      },
+      {
+        "root": "results/case_v3_complete",
+        "checked": 904,
+        "passed": true
+      }
+    ],
+    "archive_files": 108479,
+    "archive_checksums_verified": true,
+    "relocated_originals": {
+      "README.md": "handoff/original_inputs/DSE_README_ORIGINAL.md",
+      "vlasim/vlasim_dse.egg-info/SOURCES.txt": "handoff/original_inputs/DSE_EGG_SOURCES_ORIGINAL.txt"
+    }
+  },
+  "v7": {
+    "artifacts": 19626,
+    "sources": 17,
+    "mismatches": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "policies": ["fair"],
+  "hardware": [
+    {"n_cores": 1, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false},
+    {"n_cores": 2, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false},
+    {"n_cores": 3, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false},
+    {"n_cores": 4, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false},
+    {"n_cores": 6, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false},
+    {"n_cores": 8, "dram_bw": 256000000000.0, "sram_mb": 32, "local_kb": 2048, "dram_priority": false}
+  ]
+}

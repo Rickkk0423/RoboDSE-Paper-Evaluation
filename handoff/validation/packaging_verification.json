@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "bundles": [
+    {
+      "path": "handoff/backend_fmt_history.bundle",
+      "passed": true
+    },
+    {
+      "path": "handoff/backend_stage0_history.bundle",
+      "passed": true
+    },
+    {
+      "path": "handoff/backend_upstream_history.bundle",
+      "passed": true
+    },
+    {
+      "path": "handoff/backend_yaml_cpp_history.bundle",
+      "passed": true
+    },
+    {
+      "path": "handoff/source_history.bundle",
+      "passed": true
+    }
+  ],
+  "parsed_scripts": 3
+}

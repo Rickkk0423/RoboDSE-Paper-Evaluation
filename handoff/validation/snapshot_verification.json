@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked": 40453,
+  "root": "/Users/mr.meeseeks/gemini/DSE",
+  "original_directories_read": false,
+  "relocated_originals": {
+    "README.md": "handoff/original_inputs/DSE_README_ORIGINAL.md",
+    "vlasim/vlasim_dse.egg-info/SOURCES.txt": "handoff/original_inputs/DSE_EGG_SOURCES_ORIGINAL.txt"
+  },
+  "mismatches": []
+}

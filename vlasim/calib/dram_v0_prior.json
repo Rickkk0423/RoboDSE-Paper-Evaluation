@@ -1,0 +1,6 @@
+{
+  "version": "v0-prior",
+  "note": "Placeholder prior BEFORE any Ramulator calibration. 'params' = nominal point, 'ranges' = interval swept by robustness.py. Each calibration round writes calib/dram_vN.json with narrowed ranges.",
+  "params": {"eta_seq": 0.85, "eta_mix": 0.92, "prio_leak": 0.0},
+  "ranges": {"eta_seq": [0.70, 0.95], "eta_mix": [0.80, 1.00], "prio_leak": [0.0, 0.2]}
+}

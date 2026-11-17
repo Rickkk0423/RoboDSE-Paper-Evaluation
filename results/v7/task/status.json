@@ -1,0 +1,17 @@
+{
+  "points": 16,
+  "maximum": 16,
+  "low_latency_references": 4,
+  "outside_platform_counterexamples": 2,
+  "main_Box_strict_pairs": 0,
+  "timing960_passed": 16,
+  "task_episodes_run": 0,
+  "external_protocol_inputs": {
+    "environment": null,
+    "checkpoint": null,
+    "speed_bands": null,
+    "trial_budgets": null,
+    "latency_injection": null,
+    "chunk_rules": null
+  }
+}

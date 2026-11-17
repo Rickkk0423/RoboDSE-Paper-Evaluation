@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "deliveries": [
+    {
+      "root": "results/v6",
+      "checked": 38748,
+      "passed": true
+    },
+    {
+      "root": "results/v5_1",
+      "checked": 80947,
+      "passed": true
+    },
+    {
+      "root": "results/v5",
+      "checked": 249,
+      "passed": true
+    },
+    {
+      "root": "results/v4",
+      "checked": 383,
+      "passed": true
+    },
+    {
+      "root": "results/case_v3_complete",
+      "checked": 904,
+      "passed": true
+    }
+  ],
+  "archive_files": 108479,
+  "archive_checksums_verified": true
+}

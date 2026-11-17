@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+results/
+vlasim/ramulator_bridge/traces/
+.DS_Store
+.native/
+dependencies/
+publication/release_assets/
+handoff/*.bundle
+handoff/layout_v1_snapshot/

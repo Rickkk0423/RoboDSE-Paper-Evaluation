@@ -1,0 +1,16 @@
+{
+  "scope": "aggregate_grid_interpolation_diagnostic_not_closed_loop_validation",
+  "grid_rows": 33,
+  "candidates": 39928,
+  "inside_hull": 17992,
+  "outside_hull": 21936,
+  "task_episodes_run": 0,
+  "baseline": "min_L_serial_then_min_S_per_exact_hardware",
+  "H16_model_identity": "author_attribution_not_verified_by_legacy_CSV_metadata",
+  "uncertainty": "No per-speed denominators, no binomial CI, no final hardware recommendation",
+  "inputs_sha256": {
+    "vlasim/data/libero_dynamic_L_S.csv": "d71ab9cd3bcffaa1e0fa8f1209c7b6fc13876f0f07bfbeac477858e2bc5dd58a",
+    "results/v7/inputs/candidate_points.csv": "67be51fc7eb1b6af3096fc9e9519ef59b8e9620ca0b5ff0a9ed863972ab6aa40",
+    "results/v7/paper/figdata/F2_k_ablation.csv": "cadee2e0ed1f7ae458887312eaa23c86fa093b0fb921d81d9d879c5b6cc3bd4b"
+  }
+}

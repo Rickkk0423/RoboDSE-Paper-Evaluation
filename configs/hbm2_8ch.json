@@ -1,0 +1,6 @@
+{
+  "standard": "HBM2",
+  "channels": 8,
+  "organization": "HBM2_2Gb",
+  "timing": "HBM2_2000Mbps"
+}

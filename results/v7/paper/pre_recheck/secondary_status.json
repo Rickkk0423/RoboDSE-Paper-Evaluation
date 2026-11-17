@@ -1,0 +1,11 @@
+{
+  "area_pairs": 16640,
+  "boxes": 22,
+  "global_selected_points": 6,
+  "energy_ratios": 27,
+  "energy_ratio_checks_passed": true,
+  "cross_type_energy_comparable": false,
+  "samples": 2000,
+  "scope": "secondary_literature_cost",
+  "coefficient_provenance_caution": "Micron centers supplied by author; not independently retrieved."
+}

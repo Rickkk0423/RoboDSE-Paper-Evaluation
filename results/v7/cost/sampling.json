@@ -1,0 +1,11 @@
+{
+  "samples": 2000,
+  "seed": 20261116,
+  "old_draws_bitwise_preserved": true,
+  "shared_draws_across_designs": true,
+  "GDDR6_PHY_correlated_with_HBM2": true,
+  "ratio_distribution": "uniform[1.5,1.75]",
+  "other_new_coefficients_distribution": "independent uniform within provided bounds",
+  "status": "model_sensitivity_not_cost_probability_or_confidence_interval",
+  "sha256": "8414953892d92a2629f6847be20af5f4ad2c5cdfa413751917eceb7e538ce3af"
+}

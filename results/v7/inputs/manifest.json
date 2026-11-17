@@ -1,0 +1,17 @@
+{
+  "candidates": 39928,
+  "source": "results/v6/paper/candidate_points.csv",
+  "source_sha256": "da391ab670f32d48145458393ceb4010761d05614b2273849352bf1a94ebc144",
+  "spec_sha256": "050a97a2451928e7b9ce6087502cb64ec0d95f925b12109f9a248efea0c7b1d9",
+  "source_sha256_implementation": "442f8f8507f0f88cfb9abcc1858261e5e217c9d476d16190fa2afc567f532343",
+  "scope": "Frozen retained V6 candidates, no new DSE, all tied-resource designs retained",
+  "hashes": {
+    "calibration.json": "b43af964aa05a509976915741512e7aa4ec07e91fa4483b52f403d79f926ee0e",
+    "preservation_initial.json": "ea320e30b1ae0ec742fcf1f2119e9d78a3af9097375a23bfc9c26467b2633408",
+    "candidate_points.csv": "67be51fc7eb1b6af3096fc9e9519ef59b8e9620ca0b5ff0a9ed863972ab6aa40",
+    "paper/k_ablation_summary.csv": "23503bfbc69ec905e0edc309f31e9969108fad1a1f07c1b2755daac580eb4a77",
+    "band/quantiles.json": "4a52c38fec13ee374fe0c681467520eab73f2dea309bd0c78624678568ab809f",
+    "cost/draws.npz": "94f8a04e925001a991ce16f3e03ca932a5448e91e91ee3d6aee9753cc4775561",
+    "cost/coefficients.json": "099674215152ea0c1d20c45a3c9fe701dede0c82abf1c54a104b782968e6718f"
+  }
+}

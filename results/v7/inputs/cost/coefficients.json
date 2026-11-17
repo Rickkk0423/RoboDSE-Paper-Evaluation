@@ -1,0 +1,277 @@
+{
+  "status": "partial_literature_estimate_external_inputs_missing",
+  "coefficients": {
+    "A_core": {
+      "value": 6.190084939968001,
+      "lower": 5.043772914048001,
+      "upper": 7.336396965888001,
+      "points": [
+        5.043772914048001,
+        6.190084939968001,
+        7.336396965888001
+      ],
+      "unit": "mm2/core",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "tool": "Yosys/ABC + official Berkeley HardFloat + ASAP7 RVT TT predictive library",
+        "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/flow/platforms/asap7",
+        "evidence": "results/v6/cost/synth/summary.json",
+        "sha256": "c401777359e919ce01f078e5caaf5ee10ff803c27431687671e9d3497d9a195d"
+      },
+      "conversion": "(16384 PEs x 279.5715 um2 + 32 FP32 add lanes x 148.39524 um2)/1e6 times analyst-assumed placement/control factors 1.1/1.35/1.6. Includes PE operand/accumulator/output registers; private SRAM accounted separately. No SRAM local buffer duplication.",
+      "target_frequency_hz": 1000000000.0,
+      "timing_closed": false,
+      "physical_design": false
+    },
+    "a_sram": {
+      "value": 0.21786335059171597,
+      "lower": 0.1343619078397751,
+      "upper": 0.38353027343750007,
+      "points": [
+        0.1343619078397751,
+        0.21786335059171597,
+        0.38353027343750007
+      ],
+      "unit": "mm2/decimal_MB",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+        "doi": "10.1145/3466752.3480070",
+        "url": "https://people.csail.mit.edu/sanchez/papers/2021.f1.micro.pdf",
+        "location": "Table 2, Section 7: 14/12nm commercial process; 16x4MB scratchpad 48.09mm2/20.35W; three networks 10.02mm2; two HBM2 PHYs 29.80mm2, each 512GB/s."
+      },
+      "conversion": "48.09mm2 / 64MB x (7/13)^2. Bounds include source MB ambiguity, 12-14nm baseline and analyst macro/periphery multipliers 0.75-1.5; SRAM area L^2 scaling is an estimate."
+    },
+    "A_misc": {
+      "value": 1.4526035502958579,
+      "lower": 0.62625,
+      "upper": 3.409583333333334,
+      "points": [
+        0.62625,
+        1.4526035502958579,
+        3.409583333333334
+      ],
+      "unit": "mm2/design",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+        "doi": "10.1145/3466752.3480070",
+        "url": "https://people.csail.mit.edu/sanchez/papers/2021.f1.micro.pdf",
+        "location": "Table 2, Section 7: 14/12nm commercial process; 16x4MB scratchpad 48.09mm2/20.35W; three networks 10.02mm2; two HBM2 PHYs 29.80mm2, each 512GB/s."
+      },
+      "conversion": "Fixed 16-port NoC proxy: source 10.02mm2 for 3 networks, geometric L^2 scaling; analyst-assumed width/complexity factors .25/.5/1. Not a synthesized target NoC."
+    },
+    "e_mac": {
+      "value": 0.9214867902869999,
+      "lower": 0.204774842286,
+      "upper": 3.0716226342899997,
+      "points": [
+        0.204774842286,
+        0.9214867902869999,
+        3.0716226342899997
+      ],
+      "unit": "pJ/MAC",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "tool": "Yosys/ABC + official Berkeley HardFloat + ASAP7 RVT TT predictive library",
+        "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/flow/platforms/asap7",
+        "evidence": "results/v6/cost/synth/summary.json",
+        "sha256": "c401777359e919ce01f078e5caaf5ee10ff803c27431687671e9d3497d9a195d"
+      },
+      "conversion": "Sum mapped PE input-pin capacitance x 0.7V^2; analyst toggle factors .1/.3/.5 and overhead 1/1.5/3. No workload activity/internal/glitch/clock/routed energy measurement; broad proxy only."
+    },
+    "e_sram": {
+      "value": 0.668804462139423,
+      "lower": 0.310516357421875,
+      "upper": 2.484130859375,
+      "points": [
+        0.310516357421875,
+        0.668804462139423,
+        2.484130859375
+      ],
+      "unit": "pJ/byte",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+        "doi": "10.1145/3466752.3480070",
+        "url": "https://people.csail.mit.edu/sanchez/papers/2021.f1.micro.pdf",
+        "location": "Table 2, Section 7: 14/12nm commercial process; 16x4MB scratchpad 48.09mm2/20.35W; three networks 10.02mm2; two HBM2 PHYs 29.80mm2, each 512GB/s."
+      },
+      "conversion": "Source scratchpad TDP divided by 16 banks x512B x2GHz; capacitance linear L scaling, voltage scaling unknown and left unity. Aggregate TDP/access proxy, not isolated access energy. NOT USED: SRAM access bytes absent from simulator."
+    },
+    "leakage_density": {
+      "value": 0.00032171536351165977,
+      "lower": 0.0001407300411522634,
+      "upper": 0.0009708852055072904,
+      "points": [
+        0.0001407300411522634,
+        0.00032171536351165977,
+        0.0009708852055072904
+      ],
+      "unit": "W/mm2",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "tool": "Yosys/ABC + official Berkeley HardFloat + ASAP7 RVT TT predictive library",
+        "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/flow/platforms/asap7",
+        "evidence": "results/v6/cost/synth/summary.json",
+        "sha256": "c401777359e919ce01f078e5caaf5ee10ff803c27431687671e9d3497d9a195d"
+      },
+      "conversion": "ASAP7 Liberty cell leakage_power in pW / cell area converted to W/mm2; cell density p5/p50/p95 times assumed utilization .3/.5/.7. Not measured chip static power."
+    },
+    "A_phy_LPDDR5": {
+      "value": null,
+      "lower": null,
+      "upper": null,
+      "points": [
+        null,
+        null,
+        null
+      ],
+      "unit": "mm2/channel",
+      "status": "missing_external_input",
+      "node_nm": 7,
+      "source": {
+        "reason": "No accessible primary numerical PHY-area source verified; no cross-type reuse."
+      },
+      "conversion": "No conversion performed; cannot assume zero or borrow HBM PHY density."
+    },
+    "e_dram_LPDDR5": {
+      "value": null,
+      "lower": null,
+      "upper": null,
+      "points": [
+        null,
+        null,
+        null
+      ],
+      "unit": "pJ/bit",
+      "status": "missing_external_input",
+      "node_nm": null,
+      "source": {
+        "reason": "No verified whole-memory per-bit energy at compatible scope obtained."
+      },
+      "conversion": "Do not substitute PHY-only power, DRAM die area, or an uncited remembered number.",
+      "dram_process_node_nm": null,
+      "scope": "external DRAM+I/O energy, not geometrically scaled with logic node"
+    },
+    "A_phy_GDDR6": {
+      "value": null,
+      "lower": null,
+      "upper": null,
+      "points": [
+        null,
+        null,
+        null
+      ],
+      "unit": "mm2/channel",
+      "status": "missing_external_input",
+      "node_nm": 7,
+      "source": {
+        "reason": "No accessible primary numerical PHY-area source verified; no cross-type reuse."
+      },
+      "conversion": "No conversion performed; cannot assume zero or borrow HBM PHY density."
+    },
+    "e_dram_GDDR6": {
+      "value": null,
+      "lower": null,
+      "upper": null,
+      "points": [
+        null,
+        null,
+        null
+      ],
+      "unit": "pJ/bit",
+      "status": "missing_external_input",
+      "node_nm": null,
+      "source": {
+        "reason": "No verified whole-memory per-bit energy at compatible scope obtained."
+      },
+      "conversion": "Do not substitute PHY-only power, DRAM die area, or an uncited remembered number.",
+      "dram_process_node_nm": null,
+      "scope": "external DRAM+I/O energy, not geometrically scaled with logic node"
+    },
+    "A_phy_HBM2": {
+      "value": 0.2700073964497041,
+      "lower": 0.2328125,
+      "upper": 0.93125,
+      "points": [
+        0.2328125,
+        0.2700073964497041,
+        0.93125
+      ],
+      "unit": "mm2/channel",
+      "status": "literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+        "doi": "10.1145/3466752.3480070",
+        "url": "https://people.csail.mit.edu/sanchez/papers/2021.f1.micro.pdf",
+        "location": "Table 2, Section 7: 14/12nm commercial process; 16x4MB scratchpad 48.09mm2/20.35W; three networks 10.02mm2; two HBM2 PHYs 29.80mm2, each 512GB/s."
+      },
+      "conversion": "29.80mm2 / (2 x512GB/s) x32GB/s/channel. Central digital L^2 scaling; upper leaves analog PHY unscaled, lower uses14nm geometric scaling. The source node is12-14nm; analog scaling is not assured.",
+      "source_node_nm": [
+        12,
+        14
+      ]
+    },
+    "e_dram_HBM2": {
+      "value": 3.92,
+      "lower": 1.96,
+      "upper": 5.955,
+      "points": [
+        1.96,
+        3.92,
+        5.955
+      ],
+      "unit": "pJ/bit",
+      "status": "literature_estimate",
+      "node_nm": null,
+      "source": {
+        "title": "Fine-Grained DRAM: Energy-Efficient DRAM for Extreme Bandwidth Systems",
+        "doi": "10.1145/3123939.3124545",
+        "url": "https://research.nvidia.com/publication/2017-10_fine-grained-dram-energy-efficient-dram-extreme-bandwidth-systems",
+        "pdf": "https://d1qx31qr3h6wln.cloudfront.net/publications/MICRO_2017_Fine_Grained_DRAM.pdf",
+        "location": "Section2.1/Figure1: 1.21pJ activation +2.24pJ on-die movement +0.3pJ external I/O; 3.92pJ/bit total with ECC overhead, introduction states3.97pJ/bit."
+      },
+      "conversion": "Use Section2 total3.92pJ/bit, not0.3pJ PHY-only. Bounds are analyst0.5-1.5x envelope also covering the source3.92/3.97 textual difference. Workload/locality/device/clock transfer remains unvalidated; external DRAM process is not scaled with target7nm logic."
+    },
+    "P_static": {
+      "value": null,
+      "lower": null,
+      "upper": null,
+      "points": [
+        null,
+        null,
+        null
+      ],
+      "unit": "W/design",
+      "status": "derived_per_design_literature_estimate",
+      "node_nm": 7,
+      "source": {
+        "tool": "Yosys/ABC + official Berkeley HardFloat + ASAP7 RVT TT predictive library",
+        "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/tree/master/flow/platforms/asap7",
+        "evidence": "results/v6/cost/synth/summary.json",
+        "sha256": "c401777359e919ce01f078e5caaf5ee10ff803c27431687671e9d3497d9a195d"
+      },
+      "conversion": "Derived per design as Area x leakage_density; unavailable where total area has missing PHY inputs. Supplemental only, not added to the primary MAC+DRAM accounting."
+    }
+  },
+  "area_formula": "cores*A_core+(shared_MB+cores*private_MB)*a_sram+A_phy(type,channels)+A_misc",
+  "energy_formula": "MACs*e_mac+SRAM_bytes*e_sram+DRAM_bytes*8*e_dram(type)+P_static*T",
+  "primary_energy_scope": "MAC + DRAM only when both coefficients exist. SRAM access traffic uninstrumented; static omitted per specification fallback, separately available symbolically.",
+  "target_node_nm": 7,
+  "known_area_components": "core+shared/private SRAM+misc; HBM2 also has estimated PHY",
+  "blocked_inputs": [
+    "A_phy_LPDDR5",
+    "A_phy_GDDR6",
+    "e_dram_LPDDR5",
+    "e_dram_GDDR6"
+  ],
+  "assumptions": "Numerical assumptions are explicit conversion uncertainties, never external measurements."
+}

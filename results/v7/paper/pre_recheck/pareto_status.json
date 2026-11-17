@@ -1,0 +1,16 @@
+{
+  "phase": "pre_recheck",
+  "boxes": 22,
+  "classifications": {
+    "task_strictly_better": 5,
+    "identical": 14,
+    "task_extends": 3
+  },
+  "frontier_designs": 510,
+  "strict_pairs": 16640,
+  "strict_task_points": 78,
+  "F3_designs": 32216,
+  "retained_candidates": 39928,
+  "same_resource_ties": "All mappings, periods and SRAM identities retained; no arbitrary representative pruning.",
+  "SRAM_changes_boxes": 22
+}

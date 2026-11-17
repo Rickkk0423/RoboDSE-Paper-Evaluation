@@ -1,0 +1,77 @@
+\section{Evaluation}
+\label{sec:eval}
+
+\subsection{Experimental Setup and Evidence Scope}
+We evaluate RoboDSE in three stages: controlled execution-organization ablations,
+hardware-resource exploration, and bounded projection onto an imported task
+success grid. These stages distinguish hardware timing predictions from measured
+closed-loop task outcomes. The frozen V7 delivery contains 39,928 retained
+candidate identities and evaluates 22 latency/refresh constraint boxes.
+Selected timing identities undergo 960-request checks with 192 warmup requests.
+These checks establish scheduler consistency, not independent physical timing
+accuracy or closed-loop validation. Conditional memory configurations, estimated
+compute shapes, and static SRAM assumptions retain their documented limitations.
+
+The imported task table contains 33 aggregate $(L,S)$ observations. We use
+piecewise-linear interpolation only inside their convex hull and abstain outside
+it. The table lacks per-speed trial denominators and verified checkpoint,
+environment, and delay-injection provenance; its association with
+$\pi_{0.5}$ and $H=16$ is an author attribution pending metadata verification.
+Accordingly, projected success values are descriptive estimates, not new task
+measurements, confidence bounds, or validated hardware recommendations.
+
+\subsection{Benefits and Limits of Cross-Chunk Batching}
+We hold physical hardware and the VLM/DiT core allocation fixed and compare
+$k=1$, batched $k=2,3$, and unbatched $k=2,3$ organizations.
+On the four-core, 102.4\,GB/s LPDDR5 configuration, unbatched execution transfers
+6.407\,GB of DiT data per request. Batching reduces this to 3.293\,GB at $k=2$
+and 2.670\,GB at $k=3$. Total DRAM traffic falls from 11.188\,GB/request to
+8.074 and 7.451\,GB/request, respectively. With a fixed same-type DRAM energy
+coefficient, these are also dynamic DRAM energy ratios, not whole-chip power
+reductions.
+
+The $k=1$ pipeline control achieves $(L,S)=(120.55,120.54)$\,ms. Batched $k=2$
+and $k=3$ achieve $(178.16,89.07)$ and $(248.48,82.85)$\,ms, exchanging longer
+latency for more frequent updates. This $k=1$ control is not the independently
+optimized serial baseline. At matched $k$, unbatched latencies are 241.09 and
+361.63\,ms while the refresh interval remains 120.54\,ms. High-bandwidth,
+VLM-limited controls must also be shown: reduced traffic need not improve the
+refresh interval when memory stalls are no longer limiting.
+
+\subsection{Task-Aware Hardware-Resource Frontiers}
+Across the 22 timing boxes, task-aware selection yields five strictly better
+resource frontiers, three extensions, and fourteen identical frontiers. Resource
+equality is defined on core-count/peak-bandwidth vector sets; ties in mapping and
+storage identity are retained. For Box$(200,100)$, a four-core, 102.4\,GB/s
+batched design becomes feasible alongside latency-only alternatives requiring
+three cores at 204.8\,GB/s or two cores at 409.6\,GB/s. This is a bandwidth/core
+tradeoff and frontier extension, not strict dominance or matched-resource success
+improvement. Timing-box membership is not an empirical equal-success contour.
+
+Area and uncertainty are secondary analyses. Under the central literature area
+coefficients, zero of the 22 boxes has a strictly smaller globally selected
+task-aware area. Strict-improvement task/box memberships reaching the 80\%
+empirical stress-feasibility threshold number zero of 344. These findings limit
+claims of robust cost superiority and motivate bandwidth margin and additional
+calibration. Literature area estimates must not be described as measured silicon
+area, and cross-memory-type absolute energy comparisons are not supported.
+
+\subsection{Bounded Task-Space Projection}
+Of the 39,928 retained identities, 17,992 lie inside the imported grid's convex
+hull and 21,936 are excluded. For the fixed-allocation LPDDR5 controls above,
+interpolation gives mean-success estimates of 46.76\%, 47.28\%, and 43.96\%
+for $k=1$, batched $k=2$, and batched $k=3$, respectively. The approximately
+0.52-percentage-point $k=2$ increase is a conditional interpolation diagnostic,
+not a measured task gain. In particular, the 49.85\% observation at
+$(200,100)$\,ms cannot be assigned to the $(178.16,89.07)$\,ms hardware point.
+
+We choose each exact hardware identity's minimum-latency serial baseline before
+consulting the task grid. In the 264 generated refreshed-memory comparisons with
+covered task-aware alternatives, these baselines all lie outside the measured
+hull. We therefore report no same-hardware DSE success gain. Replacing them with
+slower covered serial points would introduce selection bias. Low-latency task
+measurements and matched-protocol direct rollouts are required to close this gap.
+
+% Final figures: controlled batching timing/traffic; resource Pareto examples;
+% grid hull with attainable trajectories; coverage/abstention; secondary cost.
+% No new real task episodes were run for this artifact.

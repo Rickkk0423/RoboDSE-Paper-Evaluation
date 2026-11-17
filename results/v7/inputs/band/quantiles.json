@@ -1,0 +1,196 @@
+{
+  "groups": {
+    "GDDR6/W1/vlm": {
+      "standard": "GDDR6",
+      "window": "W1",
+      "stream": "vlm",
+      "n": 1,
+      "p5": 0.0570695767503564,
+      "p50": 0.0570695767503564,
+      "p95": 0.0570695767503564
+    },
+    "GDDR6/W3/dit": {
+      "standard": "GDDR6",
+      "window": "W3",
+      "stream": "dit",
+      "n": 1,
+      "p5": -0.3246586426386211,
+      "p50": -0.3246586426386211,
+      "p95": -0.3246586426386211
+    },
+    "GDDR6/W3/vlm": {
+      "standard": "GDDR6",
+      "window": "W3",
+      "stream": "vlm",
+      "n": 1,
+      "p5": -0.3246128826111545,
+      "p50": -0.3246128826111545,
+      "p95": -0.3246128826111545
+    },
+    "GDDR6/W4/dit": {
+      "standard": "GDDR6",
+      "window": "W4",
+      "stream": "dit",
+      "n": 1,
+      "p5": -0.3466473899678447,
+      "p50": -0.3466473899678447,
+      "p95": -0.3466473899678447
+    },
+    "GDDR6/W4/vlm": {
+      "standard": "GDDR6",
+      "window": "W4",
+      "stream": "vlm",
+      "n": 1,
+      "p5": -0.3466496779695327,
+      "p50": -0.3466496779695327,
+      "p95": -0.3466496779695327
+    },
+    "GDDR6/W5/dit": {
+      "standard": "GDDR6",
+      "window": "W5",
+      "stream": "dit",
+      "n": 1,
+      "p5": -0.17444900363631888,
+      "p50": -0.17444900363631888,
+      "p95": -0.17444900363631888
+    },
+    "GDDR6/W5/vlm": {
+      "standard": "GDDR6",
+      "window": "W5",
+      "stream": "vlm",
+      "n": 1,
+      "p5": -0.05086148338003893,
+      "p50": -0.05086148338003893,
+      "p95": -0.05086148338003893
+    },
+    "HBM2/W1/vlm": {
+      "standard": "HBM2",
+      "window": "W1",
+      "stream": "vlm",
+      "n": 2,
+      "p5": -0.027334780883607662,
+      "p50": -0.027250232129164276,
+      "p95": -0.02716568337472089
+    },
+    "HBM2/W3/dit": {
+      "standard": "HBM2",
+      "window": "W3",
+      "stream": "dit",
+      "n": 1,
+      "p5": 0.07839468833754215,
+      "p50": 0.07839468833754215,
+      "p95": 0.07839468833754215
+    },
+    "HBM2/W3/vlm": {
+      "standard": "HBM2",
+      "window": "W3",
+      "stream": "vlm",
+      "n": 1,
+      "p5": 0.07804868875838489,
+      "p50": 0.07804868875838489,
+      "p95": 0.07804868875838489
+    },
+    "HBM2/W4/dit": {
+      "standard": "HBM2",
+      "window": "W4",
+      "stream": "dit",
+      "n": 2,
+      "p5": -0.04106931560625215,
+      "p50": -0.029828869880044354,
+      "p95": -0.018588424153836564
+    },
+    "HBM2/W4/vlm": {
+      "standard": "HBM2",
+      "window": "W4",
+      "stream": "vlm",
+      "n": 2,
+      "p5": -0.04124827162058375,
+      "p50": -0.03304042964618209,
+      "p95": -0.024832587671780433
+    },
+    "HBM2/W5/dit": {
+      "standard": "HBM2",
+      "window": "W5",
+      "stream": "dit",
+      "n": 3,
+      "p5": -0.022846109026484283,
+      "p50": 0.055864953082075175,
+      "p95": 0.1506917512015416
+    },
+    "HBM2/W5/vlm": {
+      "standard": "HBM2",
+      "window": "W5",
+      "stream": "vlm",
+      "n": 3,
+      "p5": -0.017692271988541553,
+      "p50": -0.0169682944244961,
+      "p95": 0.17681363354545154
+    },
+    "LPDDR5/W1/vlm": {
+      "standard": "LPDDR5",
+      "window": "W1",
+      "stream": "vlm",
+      "n": 2,
+      "p5": -0.01117548066184738,
+      "p50": -0.00530523203119293,
+      "p95": 0.0005650165994615202
+    },
+    "LPDDR5/W3/dit": {
+      "standard": "LPDDR5",
+      "window": "W3",
+      "stream": "dit",
+      "n": 1,
+      "p5": -0.1336854311907807,
+      "p50": -0.1336854311907807,
+      "p95": -0.1336854311907807
+    },
+    "LPDDR5/W3/vlm": {
+      "standard": "LPDDR5",
+      "window": "W3",
+      "stream": "vlm",
+      "n": 1,
+      "p5": -0.1336954311858034,
+      "p50": -0.1336954311858034,
+      "p95": -0.1336954311858034
+    },
+    "LPDDR5/W4/dit": {
+      "standard": "LPDDR5",
+      "window": "W4",
+      "stream": "dit",
+      "n": 2,
+      "p5": -0.09049224143014471,
+      "p50": -0.053968358276522965,
+      "p95": -0.017444475122901225
+    },
+    "LPDDR5/W4/vlm": {
+      "standard": "LPDDR5",
+      "window": "W4",
+      "stream": "vlm",
+      "n": 2,
+      "p5": -0.09043074146055868,
+      "p50": -0.053938358289491506,
+      "p95": -0.01744597511842433
+    },
+    "LPDDR5/W5/dit": {
+      "standard": "LPDDR5",
+      "window": "W5",
+      "stream": "dit",
+      "n": 3,
+      "p5": -0.002713370071269851,
+      "p50": 0.28167651065300414,
+      "p95": 0.47529550087819566
+    },
+    "LPDDR5/W5/vlm": {
+      "standard": "LPDDR5",
+      "window": "W5",
+      "stream": "vlm",
+      "n": 3,
+      "p5": -0.009413448270835723,
+      "p50": 0.09953187768086579,
+      "p95": 0.20310318022690707
+    }
+  },
+  "source_sha256": "ae8e96a1e98726f05f001f75ccc854abc3bff48450816c53df7e73e914495759",
+  "error_definition": "e = native_duration / predicted_duration - 1; bandwidth factor = 1/(1+e).",
+  "scope": "Empirical saturated-flow quantiles pooled across plain/BG within standard/window/stream. Sparse samples, not confidence or simultaneous coverage bounds. No heldout refitting. Apply each window-specific pair globally as a stress scenario, not an operation-phase error model. W1 has no DiT samples: DiT held unchanged and explicitly unmeasured. Aggregate bandwidth capped at physical peak."
+}

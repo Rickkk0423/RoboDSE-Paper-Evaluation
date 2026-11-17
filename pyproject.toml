@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vlasim-dse"
+version = "0.1.0"
+description = "Request-level VLA DSE with versioned analytical DRAM calibration"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+analysis = ["scipy>=1.10,<2"]
+test = ["pytest>=8,<10"]
+native = ["PyYAML>=6,<7", "cmake>=3.20,<5"]
+compute = ["pydantic==2.10.6", "absl-py==2.1.0"]
+
+[tool.setuptools]
+package-dir = {"" = "vlasim"}
+packages = ["vlasim"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,132 @@
+{
+  "version": "v1-ramulator",
+  "note": "HBM2 eight-channel native calibration; eta_mix is a relative factor that may exceed one due to address locality. Physical bandwidth is capped at peak. RW diagnostics do not calibrate a write penalty; strict priority remains unmeasured.",
+  "params": {
+    "eta_seq": 0.5263309139461109,
+    "eta_mix": 1.1046635184370288,
+    "prio_leak": 0.0
+  },
+  "ranges": {
+    "eta_seq": [
+      0.4757450832072617,
+      0.5836179910560716
+    ],
+    "eta_mix": [
+      0.5781421202905545,
+      1.3062520836785456
+    ],
+    "prio_leak": [
+      0.0,
+      0.2
+    ]
+  },
+  "measured": {
+    "seq": 9,
+    "mix": 9,
+    "prio": 0
+  },
+  "fit_note": "Empirical range with padding, not a statistical confidence interval; may expand if measurements contradict prior.",
+  "backend_metadata": {
+    "backend": "native Ramulator via NeuSim bridge",
+    "backend_executed": true,
+    "config": {
+      "standard": "HBM2",
+      "channels": 8,
+      "organization": "HBM2_2Gb",
+      "timing": "HBM2_2000Mbps"
+    },
+    "peak_GBps": 256.0,
+    "source_manifest_sha256": "fb2e5119dac9f21ec91bc5cc23d9de07b07b502acb1d83ca1d6835dfdcbb13c1",
+    "library_sha256": "5a2dbb91827f6e5281d31eb20792bf3ecf6657f21bac7bbcc6152b3bbdab8b41",
+    "memory_library_sha256": "d1a373f51d6a95ee08486909cb1c46e0b377116036c3716e5fe181308a5a4073",
+    "expanded_config_sha256": "e0083ab54d3c6d1a295a8522bbc4e67f9b22f4d4c8c0d1f0bd538ab3d1239b17",
+    "issue_policy": "global in-file FIFO; retry blocked head next cycle; no priority tagging",
+    "issue_width_transactions_per_cycle": 8,
+    "max_outstanding_transactions": 512,
+    "measurement": "10%-90% completed-transaction interval (n-1 intervals), plus full makespan",
+    "controller": "FRFCFS/Open; per-bank HBM refresh; single-thread real ticks",
+    "priority_supported": false,
+    "scope": "Simulator calibration only, not physical hardware measurement",
+    "sessions": [
+      {
+        "size_mib": 1,
+        "directory": "results/phase2_retry1/native_1mb",
+        "metadata": {
+          "backend": "native Ramulator via NeuSim bridge",
+          "backend_executed": true,
+          "config": {
+            "standard": "HBM2",
+            "channels": 8,
+            "organization": "HBM2_2Gb",
+            "timing": "HBM2_2000Mbps"
+          },
+          "peak_GBps": 256.0,
+          "source_manifest_sha256": "fb2e5119dac9f21ec91bc5cc23d9de07b07b502acb1d83ca1d6835dfdcbb13c1",
+          "library_sha256": "5a2dbb91827f6e5281d31eb20792bf3ecf6657f21bac7bbcc6152b3bbdab8b41",
+          "memory_library_sha256": "d1a373f51d6a95ee08486909cb1c46e0b377116036c3716e5fe181308a5a4073",
+          "expanded_config_sha256": "e0083ab54d3c6d1a295a8522bbc4e67f9b22f4d4c8c0d1f0bd538ab3d1239b17",
+          "issue_policy": "global in-file FIFO; retry blocked head next cycle; no priority tagging",
+          "issue_width_transactions_per_cycle": 8,
+          "max_outstanding_transactions": 512,
+          "measurement": "10%-90% completed-transaction interval (n-1 intervals), plus full makespan",
+          "controller": "FRFCFS/Open; per-bank HBM refresh; single-thread real ticks",
+          "priority_supported": false,
+          "scope": "Simulator calibration only, not physical hardware measurement"
+        }
+      },
+      {
+        "size_mib": 4,
+        "directory": "results/phase2_retry1/native_4mb",
+        "metadata": {
+          "backend": "native Ramulator via NeuSim bridge",
+          "backend_executed": true,
+          "config": {
+            "standard": "HBM2",
+            "channels": 8,
+            "organization": "HBM2_2Gb",
+            "timing": "HBM2_2000Mbps"
+          },
+          "peak_GBps": 256.0,
+          "source_manifest_sha256": "fb2e5119dac9f21ec91bc5cc23d9de07b07b502acb1d83ca1d6835dfdcbb13c1",
+          "library_sha256": "5a2dbb91827f6e5281d31eb20792bf3ecf6657f21bac7bbcc6152b3bbdab8b41",
+          "memory_library_sha256": "d1a373f51d6a95ee08486909cb1c46e0b377116036c3716e5fe181308a5a4073",
+          "expanded_config_sha256": "e0083ab54d3c6d1a295a8522bbc4e67f9b22f4d4c8c0d1f0bd538ab3d1239b17",
+          "issue_policy": "global in-file FIFO; retry blocked head next cycle; no priority tagging",
+          "issue_width_transactions_per_cycle": 8,
+          "max_outstanding_transactions": 512,
+          "measurement": "10%-90% completed-transaction interval (n-1 intervals), plus full makespan",
+          "controller": "FRFCFS/Open; per-bank HBM refresh; single-thread real ticks",
+          "priority_supported": false,
+          "scope": "Simulator calibration only, not physical hardware measurement"
+        }
+      },
+      {
+        "size_mib": 16,
+        "directory": "results/phase2_retry1/native_16mb",
+        "metadata": {
+          "backend": "native Ramulator via NeuSim bridge",
+          "backend_executed": true,
+          "config": {
+            "standard": "HBM2",
+            "channels": 8,
+            "organization": "HBM2_2Gb",
+            "timing": "HBM2_2000Mbps"
+          },
+          "peak_GBps": 256.0,
+          "source_manifest_sha256": "fb2e5119dac9f21ec91bc5cc23d9de07b07b502acb1d83ca1d6835dfdcbb13c1",
+          "library_sha256": "5a2dbb91827f6e5281d31eb20792bf3ecf6657f21bac7bbcc6152b3bbdab8b41",
+          "memory_library_sha256": "d1a373f51d6a95ee08486909cb1c46e0b377116036c3716e5fe181308a5a4073",
+          "expanded_config_sha256": "e0083ab54d3c6d1a295a8522bbc4e67f9b22f4d4c8c0d1f0bd538ab3d1239b17",
+          "issue_policy": "global in-file FIFO; retry blocked head next cycle; no priority tagging",
+          "issue_width_transactions_per_cycle": 8,
+          "max_outstanding_transactions": 512,
+          "measurement": "10%-90% completed-transaction interval (n-1 intervals), plus full makespan",
+          "controller": "FRFCFS/Open; per-bank HBM refresh; single-thread real ticks",
+          "priority_supported": false,
+          "scope": "Simulator calibration only, not physical hardware measurement"
+        }
+      }
+    ]
+  },
+  "source_results": "/scratch/renati/vlasim_dse_20261115_phase2/results/phase2_retry1/measurements.csv"
+}
