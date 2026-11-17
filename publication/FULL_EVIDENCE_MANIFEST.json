@@ -1,0 +1,75 @@
+{
+  "format": "concatenated gzip tar stream",
+  "parts": [
+    {
+      "name": "full-evidence.tar.gz.part000",
+      "bytes": 1073741824,
+      "sha256": "ad597eb2717f8f7a4b4c50f1d45b1834f25f95b873742887924f26390e22a831"
+    },
+    {
+      "name": "full-evidence.tar.gz.part001",
+      "bytes": 1073741824,
+      "sha256": "de493cd422272425af8139582b724ab378b2e15cdb8f07ea80863a579054be13"
+    },
+    {
+      "name": "full-evidence.tar.gz.part002",
+      "bytes": 1073741824,
+      "sha256": "bbb9148f5e009275470f50750394155a9675073475b761827c780bab28fbf8cf"
+    },
+    {
+      "name": "full-evidence.tar.gz.part003",
+      "bytes": 1073741824,
+      "sha256": "6398ccb71688283b75ebb33fc358da9c78e8d247324ae327368e3ce374628bf0"
+    },
+    {
+      "name": "full-evidence.tar.gz.part004",
+      "bytes": 1073741824,
+      "sha256": "49188aa8c911583334a67e1e704ee7cd801a495f9441a68c1322c6abf757e8d6"
+    },
+    {
+      "name": "full-evidence.tar.gz.part005",
+      "bytes": 1073741824,
+      "sha256": "f63fabc5422653bfc01561eeb0f65ae7dd154e0449e5936d43a5d654e47ab2c8"
+    },
+    {
+      "name": "full-evidence.tar.gz.part006",
+      "bytes": 1073741824,
+      "sha256": "219ec8084aeb9a34941e0c92288c5af166b4f80722cb3bc38d7edd1f7a9d42d9"
+    },
+    {
+      "name": "full-evidence.tar.gz.part007",
+      "bytes": 1073741824,
+      "sha256": "c23db12b566c0222dd81f5720cb68ed0a6f8f50b4317ae2d73b9dcf0c95a2515"
+    },
+    {
+      "name": "full-evidence.tar.gz.part008",
+      "bytes": 1073741824,
+      "sha256": "d5e3b8d0e7f29ec018ddc44ad55daf0acc448ac19d6649d50e45be48c33266ac"
+    },
+    {
+      "name": "full-evidence.tar.gz.part009",
+      "bytes": 1073741824,
+      "sha256": "2cfe7a2ff071f09adeab0fbae4671c1d006c02b88e9b230f4f2fc925c513a615"
+    },
+    {
+      "name": "full-evidence.tar.gz.part010",
+      "bytes": 1073741824,
+      "sha256": "c522361a72d8f454d5699e66e37b1ece3297d661a8f86e6f29eea8ca9b376803"
+    },
+    {
+      "name": "full-evidence.tar.gz.part011",
+      "bytes": 792197632,
+      "sha256": "27fd6254244db875dc08efc97b76131fefc87cef00d3aaba67aec677432b51e8"
+    }
+  ],
+  "exclusions": [
+    ".DS_Store",
+    ".git",
+    ".pytest_cache",
+    ".venv",
+    "__pycache__",
+    "publication"
+  ],
+  "frozen_results_included": true,
+  "restore": "cat full-evidence.tar.gz.part* | tar -xzf - -C EMPTY_DIRECTORY"
+}
