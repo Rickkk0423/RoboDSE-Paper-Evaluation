@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "words": 782,
+      "out_of_page_words": []
+    },
+    {
+      "words": 653,
+      "out_of_page_words": []
+    },
+    {
+      "words": 642,
+      "out_of_page_words": []
+    },
+    {
+      "words": 135,
+      "out_of_page_words": []
+    }
+  ],
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "rasterized": true,
+  "visual_inspection_completed": false
+}

@@ -1,0 +1,333 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="11.2500in" height="5.8333in" viewBox="0 0 810.0000 420.0000">
+<ns0:text x="16.5000" y="31.3500">
+<ns0:tspan font-family="Times New Roman" font-weight="bold" font-size="15.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Hardware DSE: resource frontiers and no-batching selection ablation</ns0:tspan>
+</ns0:text>
+<ns0:text x="15.0000" y="58.9500">
+<ns0:tspan font-family="Times New Roman" font-weight="bold" font-size="12.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+(a) Full vs. no batching: 22 boxes</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M62.2500,243.0000 L95.2500,243.0000 L95.2500,216.7500 L62.2500,216.7500 L62.2500,243.0000 Z" style="fill-rule: evenodd; fill: #aec7d2; " />
+<ns0:text x="62.2500" y="228.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+better</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M62.2500,213.7500 L95.2500,213.7500 L95.2500,187.5000 L62.2500,187.5000 L62.2500,213.7500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="62.2500" y="198.7500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M62.2500,184.5000 L95.2500,184.5000 L95.2500,158.2500 L62.2500,158.2500 L62.2500,184.5000 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="62.2500" y="169.5000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M98.2500,243.0000 L131.2500,243.0000 L131.2500,216.7500 L98.2500,216.7500 L98.2500,243.0000 Z" style="fill-rule: evenodd; fill: #aec7d2; " />
+<ns0:text x="98.2500" y="228.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+better</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M98.2500,213.7500 L131.2500,213.7500 L131.2500,187.5000 L98.2500,187.5000 L98.2500,213.7500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="98.2500" y="198.7500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M98.2500,184.5000 L131.2500,184.5000 L131.2500,158.2500 L98.2500,158.2500 L98.2500,184.5000 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="98.2500" y="169.5000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M98.2500,155.2500 L131.2500,155.2500 L131.2500,129.0000 L98.2500,129.0000 L98.2500,155.2500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="98.2500" y="140.2500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M134.2500,243.0000 L167.2500,243.0000 L167.2500,216.7500 L134.2500,216.7500 L134.2500,243.0000 Z" style="fill-rule: evenodd; fill: #aec7d2; " />
+<ns0:text x="134.2500" y="228.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+better</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M134.2500,213.7500 L167.2500,213.7500 L167.2500,187.5000 L134.2500,187.5000 L134.2500,213.7500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="134.2500" y="198.7500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M134.2500,184.5000 L167.2500,184.5000 L167.2500,158.2500 L134.2500,158.2500 L134.2500,184.5000 Z" style="fill-rule: evenodd; fill: #e9d6d3; " />
+<ns0:text x="134.2500" y="169.5000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+extend</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M134.2500,155.2500 L167.2500,155.2500 L167.2500,129.0000 L134.2500,129.0000 L134.2500,155.2500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="134.2500" y="140.2500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M134.2500,126.0000 L167.2500,126.0000 L167.2500,99.7500 L134.2500,99.7500 L134.2500,126.0000 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="134.2500" y="111.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M170.2500,243.0000 L203.2500,243.0000 L203.2500,216.7500 L170.2500,216.7500 L170.2500,243.0000 Z" style="fill-rule: evenodd; fill: #aec7d2; " />
+<ns0:text x="170.2500" y="228.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+better</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M170.2500,213.7500 L203.2500,213.7500 L203.2500,187.5000 L170.2500,187.5000 L170.2500,213.7500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="170.2500" y="198.7500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M170.2500,184.5000 L203.2500,184.5000 L203.2500,158.2500 L170.2500,158.2500 L170.2500,184.5000 Z" style="fill-rule: evenodd; fill: #e9d6d3; " />
+<ns0:text x="170.2500" y="169.5000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+extend</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M170.2500,155.2500 L203.2500,155.2500 L203.2500,129.0000 L170.2500,129.0000 L170.2500,155.2500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="170.2500" y="140.2500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M170.2500,126.0000 L203.2500,126.0000 L203.2500,99.7500 L170.2500,99.7500 L170.2500,126.0000 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="170.2500" y="111.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M206.2500,243.0000 L239.2500,243.0000 L239.2500,216.7500 L206.2500,216.7500 L206.2500,243.0000 Z" style="fill-rule: evenodd; fill: #aec7d2; " />
+<ns0:text x="206.2500" y="228.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+better</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M206.2500,213.7500 L239.2500,213.7500 L239.2500,187.5000 L206.2500,187.5000 L206.2500,213.7500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="206.2500" y="198.7500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M206.2500,184.5000 L239.2500,184.5000 L239.2500,158.2500 L206.2500,158.2500 L206.2500,184.5000 Z" style="fill-rule: evenodd; fill: #e9d6d3; " />
+<ns0:text x="206.2500" y="169.5000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+extend</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M206.2500,155.2500 L239.2500,155.2500 L239.2500,129.0000 L206.2500,129.0000 L206.2500,155.2500 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="206.2500" y="140.2500">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M206.2500,126.0000 L239.2500,126.0000 L239.2500,99.7500 L206.2500,99.7500 L206.2500,126.0000 Z" style="fill-rule: evenodd; fill: #e6e6e6; " />
+<ns0:text x="206.2500" y="111.0000">
+<ns0:tspan font-family="Times New Roman" font-size="7.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+=</ns0:tspan>
+</ns0:text>
+<ns0:text x="62.2500" y="259.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+100</ns0:tspan>
+</ns0:text>
+<ns0:text x="98.2500" y="259.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+150</ns0:tspan>
+</ns0:text>
+<ns0:text x="134.2500" y="259.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+200</ns0:tspan>
+</ns0:text>
+<ns0:text x="170.2500" y="259.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+250</ns0:tspan>
+</ns0:text>
+<ns0:text x="206.2500" y="259.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+300</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="112.2000">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+200</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="141.4500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+150</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="170.7000">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+100</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="199.9500">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+75</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="229.2000">
+<ns0:tspan font-family="Times New Roman" font-size="9.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+50</ns0:tspan>
+</ns0:text>
+<ns0:text x="60.0000" y="281.4000">
+<ns0:tspan font-family="Times New Roman" font-size="10.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Latency bound Lmax (ms)</ns0:tspan>
+</ns0:text>
+<ns0:text x="22.5000" y="83.5500">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Rows: refresh bound Smax (ms)</ns0:tspan>
+</ns0:text>
+<ns0:text x="280.5000" y="58.3500">
+<ns0:tspan font-family="Times New Roman" font-weight="bold" font-size="12.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+(b) Strict improvement: (200, 50)</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M307.5000,251.2500 L502.5000,251.2500" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="271.5000" y="251.5500">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+0</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M307.5000,215.5929 L502.5000,215.5929" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="271.5000" y="215.8929">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+256</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M307.5000,179.9357 L502.5000,179.9357" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="271.5000" y="180.2357">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+512</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M307.5000,108.6214 L502.5000,108.6214" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="271.5000" y="108.9214">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+1024</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M307.5000,105.0000 L307.5000,251.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M307.5000,251.2500 L502.5000,251.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M307.5000,251.2500 L307.5000,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="289.5000" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+0</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M356.2500,251.2500 L356.2500,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="338.2500" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+4</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M405.0000,251.2500 L405.0000,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="387.0000" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+8</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M453.7500,251.2500 L453.7500,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="435.7500" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+12</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M502.5000,251.2500 L502.5000,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="484.5000" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+16</ns0:tspan>
+</ns0:text>
+<ns0:text x="307.5000" y="285.0000">
+<ns0:tspan font-family="Times New Roman" font-size="11.2500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Core count</ns0:tspan>
+</ns0:text>
+<ns0:text x="307.5000" y="91.5000">
+<ns0:tspan font-family="Times New Roman" font-size="11.2500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Peak bandwidth (GB/s)</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M356.2500,108.6214 L380.6250,194.1986" style="stroke-width: 2.1000; stroke: #a8adb2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M380.6250,194.1986 L405.0000,215.5929" style="stroke-width: 2.1000; stroke: #a8adb2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M352.5000,112.3714 L360.0000,112.3714 L360.0000,104.8714 L352.5000,104.8714 L352.5000,112.3714 Z" style="fill-rule: evenodd; fill: #a8adb2; " />
+<ns0:path d="  M376.8750,197.9486 L384.3750,197.9486 L384.3750,190.4486 L376.8750,190.4486 L376.8750,197.9486 Z" style="fill-rule: evenodd; fill: #a8adb2; " />
+<ns0:path d="  M401.2500,219.3429 L408.7500,219.3429 L408.7500,211.8429 L401.2500,211.8429 L401.2500,219.3429 Z" style="fill-rule: evenodd; fill: #a8adb2; " />
+<ns0:path d="  M356.2500,108.6214 L380.6250,194.1986" style="stroke-width: 0.9000; stroke: #79463d; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M380.6250,194.1986 L405.0000,215.5929" style="stroke-width: 0.9000; stroke: #79463d; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M354.0000,110.8714 L358.5000,110.8714 L358.5000,106.3714 L354.0000,106.3714 L354.0000,110.8714 Z" style="fill-rule: evenodd; fill: #79463d; " />
+<ns0:path d="  M378.3750,196.4486 L382.8750,196.4486 L382.8750,191.9486 L378.3750,191.9486 L378.3750,196.4486 Z" style="fill-rule: evenodd; fill: #79463d; " />
+<ns0:path d="  M402.7500,217.8429 L407.2500,217.8429 L407.2500,213.3429 L402.7500,213.3429 L402.7500,217.8429 Z" style="fill-rule: evenodd; fill: #79463d; " />
+<ns0:path d="  M356.2500,108.6214 L380.6250,215.5929" style="stroke-width: 2.1000; stroke: #476e80; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M380.6250,215.5929 L405.0000,222.7243" style="stroke-width: 2.1000; stroke: #476e80; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M352.5000,112.3714 L360.0000,112.3714 L360.0000,104.8714 L352.5000,104.8714 L352.5000,112.3714 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:path d="  M376.8750,219.3429 L384.3750,219.3429 L384.3750,211.8429 L376.8750,211.8429 L376.8750,219.3429 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:path d="  M401.2500,226.4743 L408.7500,226.4743 L408.7500,218.9743 L401.2500,218.9743 L401.2500,226.4743 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:text x="546.7500" y="58.3500">
+<ns0:tspan font-family="Times New Roman" font-weight="bold" font-size="12.0000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+(c) Extension: (200, 100)</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M573.7500,251.2500 L768.7500,251.2500" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="537.7500" y="251.5500">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+0</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M573.7500,215.5929 L768.7500,215.5929" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="537.7500" y="215.8929">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+256</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M573.7500,179.9357 L768.7500,179.9357" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="537.7500" y="180.2357">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+512</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M573.7500,108.6214 L768.7500,108.6214" style="stroke-width: 0.5250; stroke: #e2e2e2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="537.7500" y="108.9214">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+1024</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M573.7500,105.0000 L573.7500,251.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M573.7500,251.2500 L768.7500,251.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M573.7500,251.2500 L573.7500,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="555.7500" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+0</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M622.5000,251.2500 L622.5000,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="604.5000" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+4</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M671.2500,251.2500 L671.2500,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="653.2500" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+8</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M720.0000,251.2500 L720.0000,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="702.0000" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+12</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M768.7500,251.2500 L768.7500,254.2500" style="stroke-width: 0.9000; stroke: #333333; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:text x="750.7500" y="264.3000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+16</ns0:tspan>
+</ns0:text>
+<ns0:text x="573.7500" y="285.0000">
+<ns0:tspan font-family="Times New Roman" font-size="11.2500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Core count</ns0:tspan>
+</ns0:text>
+<ns0:text x="573.7500" y="91.5000">
+<ns0:tspan font-family="Times New Roman" font-size="11.2500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Peak bandwidth (GB/s)</ns0:tspan>
+</ns0:text>
+<ns0:path d="  M598.1250,194.1986 L610.3125,222.7243" style="stroke-width: 2.1000; stroke: #a8adb2; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M594.3750,197.9486 L601.8750,197.9486 L601.8750,190.4486 L594.3750,190.4486 L594.3750,197.9486 Z" style="fill-rule: evenodd; fill: #a8adb2; " />
+<ns0:path d="  M606.5625,226.4743 L614.0625,226.4743 L614.0625,218.9743 L606.5625,218.9743 L606.5625,226.4743 Z" style="fill-rule: evenodd; fill: #a8adb2; " />
+<ns0:path d="  M598.1250,194.1986 L610.3125,222.7243" style="stroke-width: 0.9000; stroke: #79463d; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M595.8750,196.4486 L600.3750,196.4486 L600.3750,191.9486 L595.8750,191.9486 L595.8750,196.4486 Z" style="fill-rule: evenodd; fill: #79463d; " />
+<ns0:path d="  M608.0625,224.9743 L612.5625,224.9743 L612.5625,220.4743 L608.0625,220.4743 L608.0625,224.9743 Z" style="fill-rule: evenodd; fill: #79463d; " />
+<ns0:path d="  M598.1250,194.1986 L610.3125,222.7243" style="stroke-width: 2.1000; stroke: #476e80; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M610.3125,222.7243 L622.5000,236.9871" style="stroke-width: 2.1000; stroke: #476e80; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; fill: none; " />
+<ns0:path d="  M594.3750,197.9486 L601.8750,197.9486 L601.8750,190.4486 L594.3750,190.4486 L594.3750,197.9486 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:path d="  M606.5625,226.4743 L614.0625,226.4743 L614.0625,218.9743 L606.5625,218.9743 L606.5625,226.4743 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:path d="  M618.7500,240.7371 L626.2500,240.7371 L626.2500,233.2371 L618.7500,233.2371 L618.7500,240.7371 Z" style="fill-rule: evenodd; fill: #476e80; " />
+<ns0:text x="15.0000" y="312.7500">
+<ns0:tspan font-family="Times New Roman" font-size="11.2500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Gray: serial   |   Red: joint without batching (overlaps serial)   |   Blue: full RoboDSE</ns0:tspan>
+</ns0:text>
+<ns0:text x="15.0000" y="334.6500">
+<ns0:tspan font-family="Times New Roman" font-size="10.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Fresh unpruned search: full vs. no batching = 5 better / 3 extended / 14 same; no batching vs. serial = 22 same.</ns0:tspan>
+</ns0:text>
+<ns0:text x="15.0000" y="355.8000">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+Timing-box feasibility, not matched SR. 2D resource fronts; SRAM sensitivity reported separately.</ns0:tspan>
+</ns0:text>
+<ns0:text x="15.0000" y="383.4000">
+<ns0:tspan font-family="Times New Roman" font-weight="bold" font-size="10.5000" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+576 hardware identities; 16,416 configurations; 82,070 accepted candidates; all legal core splits.</ns0:tspan>
+</ns0:text>
+<ns0:text x="15.0000" y="401.5500">
+<ns0:tspan font-family="Times New Roman" font-size="9.7500" fill="#222222" fill-opacity="1.0000" stroke-opacity="1.0000">
+510 frontier identities / 132 unique 960-request checks passed. Finite search domain; not independent trials.</ns0:tspan>
+</ns0:text>
+</ns0:svg>
+

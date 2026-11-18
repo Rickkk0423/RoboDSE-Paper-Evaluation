@@ -1,0 +1,42 @@
+{
+  "hardware_identities": 8,
+  "configurations": 128,
+  "unique_simulated_semantics": 32,
+  "checks960": 160,
+  "retained_points": 640,
+  "incumbent_pruning": false,
+  "static_infeasible": 0,
+  "failed_960_checks": [],
+  "box200_100": [
+    {
+      "Lmax_ms": 200,
+      "Smax_ms": 100,
+      "arm": "serial",
+      "feasible_points": 0,
+      "representative": "",
+      "L_ms": null,
+      "S_ms": null
+    },
+    {
+      "Lmax_ms": 200,
+      "Smax_ms": 100,
+      "arm": "no_batching",
+      "feasible_points": 0,
+      "representative": "",
+      "L_ms": null,
+      "S_ms": null
+    },
+    {
+      "Lmax_ms": 200,
+      "Smax_ms": 100,
+      "arm": "full",
+      "feasible_points": 16,
+      "representative": "case_00060",
+      "L_ms": 178.1640358159577,
+      "S_ms": 89.07341015625396
+    }
+  ],
+  "scope": "LPDDR5_c8 / 102.4 GB/s / four cores; all retained SRAM variants, all three splits, k=1/2/3; not full-domain global search",
+  "task_episodes": 0,
+  "independent_physical_validation": false
+}

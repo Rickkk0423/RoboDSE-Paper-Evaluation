@@ -1,6 +1,6 @@
 # Full experiment evidence
 
-The private GitHub repository contains review-sized paper tables and all project
+The GitHub repository (public as verified on November 18, 2026) contains review-sized paper tables and all project
 code. The `v7-full-evidence` Release contains the full local payload, including
 all historical results, failed runs, cold-storage archives, native snapshots,
 dependency source snapshots, and handoff provenance. Python environments,
@@ -27,3 +27,10 @@ Historical absolute paths remain provenance, not instructions to execute them.
 Publication completion is established only by `UPLOAD_VERIFICATION.json` after
 the remote asset names and sizes match the manifest. A draft Release or local
 archive alone is not proof of upload. No new task episodes are represented here.
+
+## November 18 Supplement
+
+The fresh no-batching DSE campaign and Evaluation updates are documented in
+`v9_no_batching/README.md`. Its separate Release supplements, rather than
+replaces, the frozen V7 archive. Repository visibility is not changed by this
+delivery; the earlier description of this repository as private is historical.

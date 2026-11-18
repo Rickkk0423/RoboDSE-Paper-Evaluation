@@ -1,0 +1,41 @@
+{
+  "reference": "/Users/mr.meeseeks/Desktop/DATE/DATE_version.vsdx",
+  "reference_sha256": "9d35e24c3ac36c55df25f79e4b4c4ead096ce71f9c475ff86a965cc08c8df6f4",
+  "sources": [
+    {
+      "path": "results/v8_eval_prep/batching_projection.csv",
+      "sha256": "8bd80a3ab25b959115e97cf3996ebf0875e39f47e1700bc0ed1c47cb702c904d"
+    },
+    {
+      "path": "results/v9_no_batching_domain/box_comparisons.csv",
+      "sha256": "b95665b78dbb46a21f1322a16efc32c0363ed8acbc30b0532f6ef313759d99ea"
+    },
+    {
+      "path": "results/v9_no_batching_domain/frontier_points.csv",
+      "sha256": "0c7e37b000506b01c1400e6067a804428168371077548f996eab67c265c7f128"
+    },
+    {
+      "path": "results/v9_no_batching_domain/summary.json",
+      "sha256": "e08aaddbd66221beafd2bf5586b25c3b8fce2d4d7bed75a1a09b04a1a0b24f87"
+    },
+    {
+      "path": "vlasim/data/libero_dynamic_L_S.csv",
+      "sha256": "d71ab9cd3bcffaa1e0fa8f1209c7b6fc13876f0f07bfbeac477858e2bc5dd58a"
+    }
+  ],
+  "pages": [
+    {
+      "name": "E1_Batching",
+      "editable_shapes": 101
+    },
+    {
+      "name": "E2_Hardware_DSE",
+      "editable_shapes": 135
+    },
+    {
+      "name": "E3_SR_Projection",
+      "editable_shapes": 657
+    }
+  ],
+  "semantics": "Native Visio shapes, no embedded chart bitmap; source data on data-bearing shapes."
+}

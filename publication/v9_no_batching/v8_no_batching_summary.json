@@ -1,0 +1,119 @@
+{
+  "source_sha256": "67be51fc7eb1b6af3096fc9e9519ef59b8e9620ca0b5ff0a9ed863972ab6aa40",
+  "recheck_sha256": "8eca5128d2a9acb57cd541c364bef9a46170164452cd9b781f1c1ad04d76b51e",
+  "script_sha256": "aa17bcfa01bf1a7b83e9729e55c08fe2f70781b875978ff93b0bd37587c526a1",
+  "excluded_points": 0,
+  "matched_coverage": {
+    "total_groups": 10490,
+    "complete_groups": 5440,
+    "common_hardware": 320,
+    "retained_rows": 28800
+  },
+  "counts": {
+    "frozen_retained|all_v7_eligible|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "frozen_retained|all_v7_eligible|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|all_v7_eligible|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|all_v7_eligible|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "frozen_retained|all_v7_eligible|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|all_v7_eligible|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|refreshed_only|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "frozen_retained|refreshed_only|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|refreshed_only|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|refreshed_only|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "frozen_retained|refreshed_only|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "frozen_retained|refreshed_only|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "matched_support|all_v7_eligible|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "matched_support|all_v7_eligible|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|all_v7_eligible|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|all_v7_eligible|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "matched_support|all_v7_eligible|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|all_v7_eligible|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|refreshed_only|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "matched_support|refreshed_only|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|refreshed_only|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|refreshed_only|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "matched_support|refreshed_only|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    },
+    "matched_support|refreshed_only|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 17
+    }
+  },
+  "new_hardware_simulations": 0,
+  "new_task_episodes": 0,
+  "limitations": [
+    "Frozen retained search was incumbent-pruned; no global optimality claim.",
+    "Matched support balances five organizations at hardware/split/period-factor level, not absolute periods.",
+    "Matching conditions on successful retained curves; omitted mappings are not independently evaluated.",
+    "Serial uses the V7 serial L<=Smax definition; joint arms use both actual L and S.",
+    "2D fronts may trade SRAM; 3D sensitivity is supplied."
+  ]
+}

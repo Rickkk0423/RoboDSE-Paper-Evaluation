@@ -1,0 +1,25 @@
+{
+  "zip_valid": true,
+  "xml_valid": true,
+  "native_shapes_per_page": [
+    101,
+    135,
+    657
+  ],
+  "independent_parser": "libvisio vsd2text/vsd2xhtml",
+  "rendered_pages": [
+    {
+      "page": 1,
+      "rendered": true
+    },
+    {
+      "page": 2,
+      "rendered": true
+    },
+    {
+      "page": 3,
+      "rendered": true
+    }
+  ],
+  "microsoft_visio_app_open_test": false
+}

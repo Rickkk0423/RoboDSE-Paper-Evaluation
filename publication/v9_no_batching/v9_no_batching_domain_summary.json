@@ -1,0 +1,161 @@
+{
+  "hardware_identities": 576,
+  "configurations": 16416,
+  "candidates": 82070,
+  "unique_semantics": 4113,
+  "shards": [
+    {
+      "memory": "GDDR6_c16",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "GDDR6_c24",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "HBM2_c16",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "HBM2_c32",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9110,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "HBM2_c8",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "LPDDR5_c16",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "LPDDR5_c32",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "LPDDR5_c4",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    },
+    {
+      "memory": "LPDDR5_c8",
+      "hardware": 64,
+      "configurations": 1824,
+      "semantics": 457,
+      "candidates": 9120,
+      "statuses": {
+        "bracket_found": 1824
+      }
+    }
+  ],
+  "frontier_identity_checks": 510,
+  "unique_checks960": 132,
+  "failed_checks": [],
+  "counts": {
+    "all_v7_eligible|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "all_v7_eligible|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "all_v7_eligible|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "all_v7_eligible|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "all_v7_eligible|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "all_v7_eligible|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "refreshed_only|cores_BW|serial|no_batching": {
+      "identical": 22
+    },
+    "refreshed_only|cores_BW|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "refreshed_only|cores_BW|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "refreshed_only|cores_BW_SRAM|serial|no_batching": {
+      "identical": 22
+    },
+    "refreshed_only|cores_BW_SRAM|no_batching|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    },
+    "refreshed_only|cores_BW_SRAM|serial|full": {
+      "task_strictly_better": 5,
+      "identical": 14,
+      "task_extends": 3
+    }
+  },
+  "incumbent_pruning": false,
+  "max_relative_error": 2.114788429638855e-11,
+  "scope": "All V7-retained hardware identities; all VLM splits; five pipeline organizations plus serial; five Tmin-relative periods; original model/calibration assumptions; not continuous global optimization.",
+  "task_episodes": 0,
+  "publishable": true,
+  "source_unchanged": true
+}

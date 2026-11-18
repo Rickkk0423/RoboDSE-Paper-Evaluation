@@ -1,0 +1,27 @@
+% Historical retained-population insert, superseded for the main manuscript by
+% evaluation_delivery/evaluation.tex and the fresh V9 domain ablation.
+% Add to Section 5.1 after baseline definitions.
+To assess the contribution of batching to hardware selection, we compare the
+serial reference, joint exploration without cross-chunk batching, and full
+RoboDSE. The no-batching arm retains serial execution, the $k=1$ pipeline,
+and unbatched $k=2,3$ organizations. We report both selection over the frozen
+retained candidates and a matched-support check requiring all five pipeline
+organizations at each retained hardware, core-split, and relative-period-factor
+combination. This check controls observed organization coverage but does not
+recover mappings omitted by the original incumbent-based pruning.
+
+% Add to Section 5.3 after the resource-frontier overview.
+\paragraph{Contribution of batching to design selection.}
+Over the frozen retained candidates, joint exploration without batching yields
+the same core-count/bandwidth frontiers as the serial reference in all 22 boxes.
+Full RoboDSE produces five strictly improved frontiers and three extensions
+relative to the no-batching arm. Under matched organization support, the five
+strict improvements remain, while the other 17 boxes have identical frontiers.
+These classification counts also hold when conditional NoRefresh configurations
+are excluded and when total SRAM is included as a third resource dimension.
+Thus, the five strict improvements provide evidence for the contribution of
+batching within the matched evaluated space. The three extensions observed in
+the full retained population are not reproduced by this restricted-support
+check and are not presented as matched-support batching attribution. Identical
+resource frontiers do not imply identical execution timings; no exhaustive
+unpruned optimum or task-success improvement is established by this ablation.

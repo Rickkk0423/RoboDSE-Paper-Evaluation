@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "raw_hashes_verified": 4245,
+  "configuration_curves_verified": 16416,
+  "evaluated_curve_identities": 82080,
+  "accepted_curve_identities": 82070,
+  "excluded_curve_identities": 10,
+  "excluded_semantic_factors": 3,
+  "input_hashes_unchanged": true,
+  "note": "Original periodic gates unchanged; rejected curve points not relaxed."
+}
