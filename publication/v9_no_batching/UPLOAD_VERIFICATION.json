@@ -1,0 +1,36 @@
+{
+  "verified_at_utc": "2026-11-18T03:01:33.297795+00:00",
+  "repository": "Rickkk0423/RoboDSE-Paper-Evaluation",
+  "release_tag": "v9-no-batching-dse-20261118",
+  "release_url": "https://github.com/Rickkk0423/RoboDSE-Paper-Evaluation/releases/tag/v9-no-batching-dse-20261118",
+  "is_draft": false,
+  "source_commit": "bc0029854e3712d8328a07110929b7a81ad8ebe7",
+  "assets": [
+    {
+      "name": "no-batching-dse-evidence.tar.gz",
+      "bytes": 782634478,
+      "sha256": "f4e163fe523cc921a1c378d59254db544cb5cd86c474bd016ea3687d30311951",
+      "method": "GitHub API SHA-256 digest",
+      "asset_id": 761635114,
+      "url": "https://github.com/Rickkk0423/RoboDSE-Paper-Evaluation/releases/download/v9-no-batching-dse-20261118/no-batching-dse-evidence.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 98,
+      "sha256": "ff63701d33f5ead27bb45c4e49d8fbad60804267a7a2ac7e2766a9fc998ee5db",
+      "method": "GitHub API SHA-256 digest",
+      "asset_id": 761635111,
+      "url": "https://github.com/Rickkk0423/RoboDSE-Paper-Evaluation/releases/download/v9-no-batching-dse-20261118/SHA256SUMS"
+    },
+    {
+      "name": "EVIDENCE_MANIFEST.json",
+      "bytes": 2228629,
+      "sha256": "58622ddfa2093e32747c97ca1e985d922e7687d95324f1438ea456d411daf993",
+      "method": "GitHub API SHA-256 digest",
+      "asset_id": 761635113,
+      "url": "https://github.com/Rickkk0423/RoboDSE-Paper-Evaluation/releases/download/v9-no-batching-dse-20261118/EVIDENCE_MANIFEST.json"
+    }
+  ],
+  "passed": true,
+  "note": "Remote bytes/digests verified; archive member hashes separately checked before upload."
+}

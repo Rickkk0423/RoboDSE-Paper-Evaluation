@@ -76,5 +76,10 @@ other tools listed in `paper/evaluation_delivery/README.md`. The delivered VSDX
 can be edited without rerunning its builder. Automated parse/layout checks passed;
 Microsoft Visio application testing and manual visual inspection were not completed.
 
-`UPLOAD_VERIFICATION.json`, once present, records the remote Release asset
-verification. A local archive or a draft Release alone does not establish upload.
+`UPLOAD_VERIFICATION.json` records the completed remote Release verification:
+all three published assets match local sizes and GitHub API SHA-256 digests.
+The evidence archive contains 8,919 verified members and is 782,634,478 bytes.
+The Release source commit is `bc0029854e3712d8328a07110929b7a81ad8ebe7`.
+Run `scripts/verify_no_batching_upload.py` to repeat the remote check while the
+local packaged assets remain available. A local archive or a draft Release alone
+does not establish upload.
