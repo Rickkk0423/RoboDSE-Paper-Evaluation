@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "model": "dynamicvla",
+  "status": "complete",
+  "params": {
+    "eta_seq": 0.5268178552498374,
+    "eta_mix": 0.6664201044902729,
+    "prio_leak": null
+  },
+  "ranges": {
+    "eta_seq": [
+      0.5268178552498374,
+      0.5339608514279602
+    ],
+    "eta_mix": [
+      0.6557175998070962,
+      0.7964445709508975
+    ],
+    "prio_leak": null
+  },
+  "source": {
+    "measurements_sha256": "db5c7b965aea9fbe2e6a4d5e6976371ae76c9d9befbc50e5a7fe237c889f6bd0",
+    "trace_manifest_sha256": "22469cb57958ac6a4a4432b28d0d87e692a42cbce130fb62ee69202b681eb86a",
+    "profile_sha256": "2af7ce4973b447cf18962b24ff075e764ee0d755a9ddb97e85d79a8a1bfa5f15"
+  },
+  "fit_method": "median achieved/peak ratios; empirical min/max envelope",
+  "rows": [
+    {
+      "benchmark": "seq_dynamicvla_prefix",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "134.86537094395837",
+      "makespan_GBps": "134.69130262001195",
+      "bytes": "67108864",
+      "cycles": "498242"
+    },
+    {
+      "benchmark": "seq_dynamicvla_dit",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "134.86537094395837",
+      "makespan_GBps": "134.69130262001195",
+      "bytes": "67108864",
+      "cycles": "498242"
+    },
+    {
+      "benchmark": "seq_dynamicvla_kv",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "136.69397796555782",
+      "makespan_GBps": "136.03338158903176",
+      "bytes": "1597440",
+      "cycles": "11743"
+    },
+    {
+      "benchmark": "mix_dynamicvla_k1_batched",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "89.86503388172125",
+      "makespan_GBps": "88.03646039611982",
+      "bytes": "135815168",
+      "cycles": "1542715"
+    },
+    {
+      "benchmark": "mix_dynamicvla_k2_batched",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "89.87699459659216",
+      "makespan_GBps": "86.45722616053773",
+      "bytes": "137412608",
+      "cycles": "1589371"
+    },
+    {
+      "benchmark": "mix_dynamicvla_k2_unbatched",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "99.34900688751485",
+      "makespan_GBps": "97.99999041665508",
+      "bytes": "204521472",
+      "cycles": "2086954"
+    },
+    {
+      "benchmark": "mix_dynamicvla_k3_batched",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "89.63264713965967",
+      "makespan_GBps": "84.96806470797854",
+      "bytes": "139010048",
+      "cycles": "1636027"
+    },
+    {
+      "benchmark": "mix_dynamicvla_k3_unbatched",
+      "peak_GBps": "256.0",
+      "achieved_GBps": "107.41279249759457",
+      "makespan_GBps": "103.83858769554216",
+      "bytes": "273227776",
+      "cycles": "2631274"
+    }
+  ],
+  "limitations": [
+    "Native Ramulator measurements are simulator evidence, not silicon measurements.",
+    "The fit is valid only for the recorded DynamicVLA traffic and controller scope.",
+    "Priority behavior is unmeasured and intentionally null.",
+    "This calibration must not be substituted into Pi0.5 results."
+  ]
+}

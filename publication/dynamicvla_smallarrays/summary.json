@@ -1,0 +1,18 @@
+{
+  "hardware_identities": 81,
+  "configurations": 621,
+  "candidate_points": 3098,
+  "checks960": 621,
+  "unique_960_runs": 594,
+  "python_cpp_checks": 18,
+  "max_relative_error": 2.2556152768094576e-10,
+  "max_python_cpp_abs_error": 4.440892098500626e-16,
+  "target_latency_ms": [
+    100,
+    300
+  ],
+  "target_is_exploratory": true,
+  "new_gpu_runs": 0,
+  "new_ramulator_runs": 0,
+  "task_episodes": 0
+}

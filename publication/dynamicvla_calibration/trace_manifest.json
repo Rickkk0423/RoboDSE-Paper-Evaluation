@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "model": "dynamicvla",
+  "source_profile": "/Users/mr.meeseeks/gemini/DSE/publication/dynamicvla_pilot/profile.json",
+  "profile_sha256": "2af7ce4973b447cf18962b24ff075e764ee0d755a9ddb97e85d79a8a1bfa5f15",
+  "line_bytes": 64,
+  "address_regions": {
+    "vlm": "0x0",
+    "dit": "0x40000000",
+    "kv": "0x80000000",
+    "act": "0xc0000000"
+  },
+  "traffic_basis": {
+    "prefix_weights": 820209024,
+    "dit_weights": 198008320,
+    "kv_bytes": 1597440,
+    "activation_bytes": 871511040,
+    "flow_steps": 10,
+    "prefix_ops": 569,
+    "dit_ops_per_step": 140,
+    "weight_precision": "BF16 target assumption",
+    "kv_precision": "BF16 target assumption"
+  },
+  "trace_sample_mb_per_stream": 64.0,
+  "native_backend_scope": "Ramulator controller calibration only; not silicon measurement",
+  "priority": "unsupported by native bridge; no priority traces generated",
+  "files": [
+    {
+      "file": "seq_dynamicvla_prefix.csv",
+      "requests": 1048576,
+      "bytes": 67108864,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        }
+      ],
+      "purpose": "DynamicVLA prefix weight stream",
+      "sha256": "46e43efe4d5d67d8fa18c0039bc4ed219847de177622179df59e5d0699c39979"
+    },
+    {
+      "file": "seq_dynamicvla_dit.csv",
+      "requests": 1048576,
+      "bytes": 67108864,
+      "streams": [
+        {
+          "name": "dit",
+          "bytes": 67108864
+        }
+      ],
+      "purpose": "one DynamicVLA DiT denoising-step weight stream",
+      "sha256": "60fe76c1a042149d237181a16f01b634ba0885b7455c4b38a8ce42b26a0e55d5"
+    },
+    {
+      "file": "seq_dynamicvla_kv.csv",
+      "requests": 24960,
+      "bytes": 1597440,
+      "streams": [
+        {
+          "name": "kv",
+          "bytes": 1597440
+        }
+      ],
+      "purpose": "DynamicVLA KV write-back diagnostic",
+      "sha256": "b0a20339d209a4306df17159eeb9962f3323be506116a279a5becc188a92effc"
+    },
+    {
+      "file": "mix_dynamicvla_k1_batched.csv",
+      "requests": 2122112,
+      "bytes": 135815168,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        },
+        {
+          "name": "dit",
+          "bytes": 67108864
+        },
+        {
+          "name": "kv",
+          "bytes": 1597440
+        }
+      ],
+      "purpose": "DynamicVLA k=1 batched weight/KV mix",
+      "sha256": "851ec756afaa8d63e905ae80043813168819437ed6de859e9faa4cbb6144d3a8"
+    },
+    {
+      "file": "mix_dynamicvla_k2_batched.csv",
+      "requests": 2147072,
+      "bytes": 137412608,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        },
+        {
+          "name": "dit",
+          "bytes": 67108864
+        },
+        {
+          "name": "kv",
+          "bytes": 3194880
+        }
+      ],
+      "purpose": "DynamicVLA k=2 batched weight/KV mix",
+      "sha256": "5fdf1bceb445fefb3994e5371920fa5d3b5cb7cdb5459329e41a47bdd069e9de"
+    },
+    {
+      "file": "mix_dynamicvla_k2_unbatched.csv",
+      "requests": 3195648,
+      "bytes": 204521472,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        },
+        {
+          "name": "dit",
+          "bytes": 134217728
+        },
+        {
+          "name": "kv",
+          "bytes": 3194880
+        }
+      ],
+      "purpose": "DynamicVLA k=2 unbatched control",
+      "sha256": "17e3b8432fc7bd02aca5757b31e0d30dcae229cdcccee9c8ba16f19611b3bbb2"
+    },
+    {
+      "file": "mix_dynamicvla_k3_batched.csv",
+      "requests": 2172032,
+      "bytes": 139010048,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        },
+        {
+          "name": "dit",
+          "bytes": 67108864
+        },
+        {
+          "name": "kv",
+          "bytes": 4792320
+        }
+      ],
+      "purpose": "DynamicVLA k=3 batched weight/KV mix",
+      "sha256": "b029ec4485da8cf8a1ee85a0dd66982afcd31e4b2dd1549ff7e217801c6ff065"
+    },
+    {
+      "file": "mix_dynamicvla_k3_unbatched.csv",
+      "requests": 4269184,
+      "bytes": 273227776,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 67108864
+        },
+        {
+          "name": "dit",
+          "bytes": 201326592
+        },
+        {
+          "name": "kv",
+          "bytes": 4792320
+        }
+      ],
+      "purpose": "DynamicVLA k=3 unbatched control",
+      "sha256": "affb92841d7f7ea78f53bb312919028fc5c6fef099244390f9c77ebac829964d"
+    },
+    {
+      "file": "mix_dynamicvla_25.csv",
+      "requests": 1048576,
+      "bytes": 67108864,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 16777216
+        },
+        {
+          "name": "dit",
+          "bytes": 50331648
+        }
+      ],
+      "purpose": "DynamicVLA VLM/DiT ratio 25/75",
+      "sha256": "6738c2940da01a1ddb130dcbeb22aaa79b111ec06bc550804b6ac4924432fa95"
+    },
+    {
+      "file": "mix_dynamicvla_50.csv",
+      "requests": 1048576,
+      "bytes": 67108864,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 33554432
+        },
+        {
+          "name": "dit",
+          "bytes": 33554432
+        }
+      ],
+      "purpose": "DynamicVLA VLM/DiT ratio 50/50",
+      "sha256": "c2c196ce2aeab225d6dcf39541728a9fe9e62ad800fe1a9c5cc610dd831054dd"
+    },
+    {
+      "file": "mix_dynamicvla_75.csv",
+      "requests": 1048576,
+      "bytes": 67108864,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 50331648
+        },
+        {
+          "name": "dit",
+          "bytes": 16777216
+        }
+      ],
+      "purpose": "DynamicVLA VLM/DiT ratio 75/25",
+      "sha256": "09c8d1e622e1cbaa94359850ba98232eaeb2a0984777abcc35f6187edfda9d80"
+    },
+    {
+      "file": "rw_dynamicvla_kv_10.csv",
+      "requests": 9462144,
+      "bytes": 605577216,
+      "streams": [
+        {
+          "name": "vlm",
+          "bytes": 603979776
+        },
+        {
+          "name": "kv",
+          "bytes": 1597440
+        }
+      ],
+      "purpose": "10 percent KV/activation write diagnostic",
+      "sha256": "518d74bcd27424ac9517c051fa1d1f2f30827ffe3655c7e7e2da8eb9c32627c1"
+    }
+  ],
+  "limitations": [
+    "BF16 traffic is a target mapping assumption for a mixed-precision checkpoint.",
+    "KV and activation traffic are aggregate diagnostics, not event-level traces.",
+    "Weight sharing represents the intended cross-chunk batching organization.",
+    "No Pi0.5 calibration file is read or modified by this generator."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "summary.json": "272b2bfacf940fcbe6beed42a0454fb7e4b2b4e4d4a6a09100360ed56d07fc66",
+  "checks960.csv": "e27dfa4de29ea7176ca201113976c9958ddbab499220cb3b5b56dee812a9415a",
+  "REPORT.md": "0546ff0d89e0dc6ddcd3ae29c67f0a0526d116f7c7afe68024e07aee6e4ffa6f",
+  "resource_frontiers.json": "2c28af1d977db270fb55db87a09fef492d0522c993079286ed5c3ead79fb3b35",
+  "configurations.csv": "e08e2a077771883fe01b9b878ab960237a423da706abe7aaf8b36987a29159df",
+  "candidate_points.csv": "c7209a9f3c1f4c53f39b785a541131d98ec27b6156be93affbcae8211d6bdba7",
+  "manifest.json": "2ae7f6678c12074b7dfe12cce009b2a76d9be0c57f88916f29b417f7035986c8",
+  "verification.json": "d044dd43bb4438d30fc9a1b03bca5525ae9f4bce7b30eac7a6a1b1a17eb16c55",
+  "matched_hardware_examples.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "reference_checks.json": "cbb7e379493cf820ed07f5e8c69e690cba027b1e4de8672f95d8e41225dd74c1"
+}

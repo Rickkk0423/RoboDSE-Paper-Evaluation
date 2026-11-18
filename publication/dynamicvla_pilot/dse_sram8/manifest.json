@@ -1,0 +1,24 @@
+{
+  "profile_sha256": "2af7ce4973b447cf18962b24ff075e764ee0d755a9ddb97e85d79a8a1bfa5f15",
+  "calibration_sha256": "b43af964aa05a509976915741512e7aa4ec07e91fa4483b52f403d79f926ee0e",
+  "sources": {
+    "scripts/run_dynamicvla_pilot.py": "274dfafbc8d5c78001917623a1910ca6b7d8584d60dcc79c93c3a645c4191865",
+    "vlasim/vlasim/dynamicvla_workload.py": "f07d9a9d5db4b2a4297e26300f7ccae7fcd5632452aca7d81b89a11bb47a8135",
+    "vlasim/v6_periodic.cpp": "00e645107481de9bdd600b05bb0577e2d2a75d690794ca40e5d2bae12bb9fa57",
+    "vlasim/v51_fast.py": "94dafde6f1e3de4aa7634c1a725a9ff56407a2889cb65ff704364703bb08d75d",
+    "vlasim/v51_dse.py": "1612910ae97677b3c2a586b024f1caa72bf95e109003ac73be393772e36b997e",
+    "vlasim/v4_scheduler.py": "e9d311ac0ed4015171d32ba85c973ac2087749e3a54e3991910c9d6cbe0e189c",
+    "vlasim/vlasim/sim.py": "e5bbdb5403dd2303b7a288497ef31388c68275f9e2a9096e59cfb38b819f498c",
+    "vlasim/v6_band.py": "f2954f2536bc12f3cf22571b7407f7db09c9de0f30f2a0592c753aa84ce4cd65",
+    ".native/compute/source_manifest.json": "83c3ca675fc72d709526e0576152522f4f20916edf310089bbbd0541804aab87"
+  },
+  "cores": "1,2,3,4",
+  "memories": "LPDDR5_c4,LPDDR5_c8,LPDDR5_c16",
+  "sram_mb": 8.0,
+  "target_precision": "BF16 assumption; source mixed precision not validated after conversion",
+  "memory_scope": "Reused pi05-trace Ramulator fit, NOT recalibrated to DynamicVLA",
+  "compute_scope": "Traced GEMMs through NeuSim; conv analytical compute floor; non-matmul omitted",
+  "traffic_scope": "Weight-stream and prefix-KV model; uniform KV placement, approximate activation spill",
+  "batching_scope": "Modeled weight sharing; no real batched-policy implementation or SR validation",
+  "task_episodes": 0
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "Lmax_ms": 40,
+    "Smax_ms": 40,
+    "arm": "serial",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 40,
+    "Smax_ms": 40,
+    "arm": "no_batching",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 40,
+    "Smax_ms": 40,
+    "arm": "full",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 40,
+    "arm": "serial",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 40,
+    "arm": "no_batching",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 40,
+    "arm": "full",
+    "resource_frontier": [
+      [
+        51.2,
+        3
+      ],
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 40,
+    "arm": "serial",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 40,
+    "arm": "no_batching",
+    "resource_frontier": [
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 40,
+    "arm": "full",
+    "resource_frontier": [
+      [
+        51.2,
+        2
+      ],
+      [
+        102.4,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 80,
+    "arm": "serial",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 80,
+    "arm": "no_batching",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 80,
+    "Smax_ms": 80,
+    "arm": "full",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 80,
+    "arm": "serial",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 80,
+    "arm": "no_batching",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  },
+  {
+    "Lmax_ms": 120,
+    "Smax_ms": 80,
+    "arm": "full",
+    "resource_frontier": [
+      [
+        51.2,
+        1
+      ]
+    ]
+  }
+]

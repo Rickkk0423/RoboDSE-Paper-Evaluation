@@ -1,0 +1,22 @@
+{
+  "backend": "native Ramulator via NeuSim bridge",
+  "backend_executed": true,
+  "config": {
+    "standard": "HBM2",
+    "channels": 8,
+    "organization": "HBM2_2Gb",
+    "timing": "HBM2_2000Mbps"
+  },
+  "peak_GBps": 256.0,
+  "source_manifest_sha256": "8a0fcaa6d0351e26b5115d6bde8fc40dba9ff3d768238af40b7fb6f2c0acf51c",
+  "library_sha256": "4a6f3ec2729125090d60c2e301ef749799641e63394079e93e5cf34bb5d82a62",
+  "memory_library_sha256": "60db3665cb0fe7578630a8237b8b23bb20f4a72d73ebeb918e62660e475c523c",
+  "expanded_config_sha256": "e0083ab54d3c6d1a295a8522bbc4e67f9b22f4d4c8c0d1f0bd538ab3d1239b17",
+  "issue_policy": "global in-file FIFO; retry blocked head next cycle; no priority tagging",
+  "issue_width_transactions_per_cycle": 8,
+  "max_outstanding_transactions": 512,
+  "measurement": "10%-90% completed-transaction interval (n-1 intervals), plus full makespan",
+  "controller": "FRFCFS/Open; per-bank HBM refresh; single-thread real ticks",
+  "priority_supported": false,
+  "scope": "Simulator calibration only, not physical hardware measurement"
+}

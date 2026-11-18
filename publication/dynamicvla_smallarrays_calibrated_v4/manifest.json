@@ -1,0 +1,50 @@
+{
+  "grid": {
+    "arrays": [
+      16,
+      32,
+      64
+    ],
+    "cores": [
+      1,
+      2,
+      4
+    ],
+    "srams": [
+      4.0,
+      8.0,
+      32.0
+    ],
+    "bandwidths": [
+      12.8,
+      25.6,
+      51.2
+    ]
+  },
+  "profile_sha256": "2af7ce4973b447cf18962b24ff075e764ee0d755a9ddb97e85d79a8a1bfa5f15",
+  "calibration_sha256": "11af3177cbcca0cc58bb7682caa0acd1c653289ef0f1e50a1f36c95a67bd299b",
+  "calibration_source": "/Users/mr.meeseeks/gemini/DSE/results/dynamicvla_calibration_20261118/dynamicvla_hbm2_8ch_v1.json",
+  "sources": {
+    "scripts/run_dynamicvla_smallarrays.py": "8a7a14db8b778a1dc05fed8accfbd9137dfd147d7e190cbde99f5704b8865209",
+    "vlasim/vlasim/dynamicvla_workload.py": "f07d9a9d5db4b2a4297e26300f7ccae7fcd5632452aca7d81b89a11bb47a8135",
+    "vlasim/vlasim/neusim_compute.py": "4fe2e45ba06ad41a9444b724b37da585ee03ca4cd499fb6279760a32770a1ecf",
+    "vlasim/vlasim/hw.py": "fb8fd223a0f12d639c472e5cf8199d0d7574801ed5b5cb30b95f046933184cf1",
+    "vlasim/vlasim/sim.py": "e5bbdb5403dd2303b7a288497ef31388c68275f9e2a9096e59cfb38b819f498c",
+    "vlasim/v6_periodic.cpp": "00e645107481de9bdd600b05bb0577e2d2a75d690794ca40e5d2bae12bb9fa57",
+    "vlasim/v51_fast.py": "94dafde6f1e3de4aa7634c1a725a9ff56407a2889cb65ff704364703bb08d75d",
+    "vlasim/v6_band.py": "f2954f2536bc12f3cf22571b7407f7db09c9de0f30f2a0592c753aa84ce4cd65",
+    "vlasim/v51_dse.py": "1612910ae97677b3c2a586b024f1caa72bf95e109003ac73be393772e36b997e",
+    "vlasim/v4_scheduler.py": "e9d311ac0ed4015171d32ba85c973ac2087749e3a54e3991910c9d6cbe0e189c",
+    ".native/compute/source_manifest.json": "83c3ca675fc72d709526e0576152522f4f20916edf310089bbbd0541804aab87"
+  },
+  "freq_GHz": 1,
+  "local_kb": 32,
+  "weight_precision": "BF16 target assumption",
+  "memory_model": "DynamicVLA-native eta_seq/eta_mix are used when --calibration is supplied. 12.8/25.6/51.2 GB/s remain peak-bandwidth sensitivity points unless their geometry is covered by the native calibration. calibration_model=dynamicvla; calibration_scope=dynamicvla_native_ramulator",
+  "compute_model": "NeuSim GEMMs; analytical conv floor; non-matmul work omitted",
+  "sram_scope": "32KB private passes static tile feasibility; no local-capacity timing model. Shared activation and KV storage use the exploratory trace adapter.",
+  "selection": "Resource vectors under timing bounds, not latency minimization or task SR",
+  "task_episodes": 0,
+  "new_gpu_runs": 0,
+  "new_ramulator_runs": 0
+}

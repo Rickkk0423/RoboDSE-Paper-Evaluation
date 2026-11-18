@@ -1,0 +1,362 @@
+[
+  {
+    "key": [
+      16,
+      "serial",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 1,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      16,
+      "pipelined",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      16,
+      "pipelined",
+      2,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      16,
+      "pipelined",
+      2,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      16,
+      "pipelined",
+      3,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      16,
+      "pipelined",
+      3,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 16,
+      "array_cols": 16,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      32,
+      "serial",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 1,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      32,
+      "pipelined",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      32,
+      "pipelined",
+      2,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      32,
+      "pipelined",
+      2,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      32,
+      "pipelined",
+      3,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      32,
+      "pipelined",
+      3,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 32,
+      "array_cols": 32,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      64,
+      "serial",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 1,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      64,
+      "pipelined",
+      1,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      64,
+      "pipelined",
+      2,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      64,
+      "pipelined",
+      2,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  },
+  {
+    "key": [
+      64,
+      "pipelined",
+      3,
+      false
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 4.440892098500626e-16
+  },
+  {
+    "key": [
+      64,
+      "pipelined",
+      3,
+      true
+    ],
+    "hardware": {
+      "n_cores": 2,
+      "array_rows": 64,
+      "array_cols": 64,
+      "freq_hz": 1000000000.0,
+      "sram_mb": 4.0,
+      "local_kb": 32,
+      "dram_bw": 12800000000.0,
+      "slice_mode": false,
+      "dram_priority": true
+    },
+    "max_abs_error": 0.0
+  }
+]

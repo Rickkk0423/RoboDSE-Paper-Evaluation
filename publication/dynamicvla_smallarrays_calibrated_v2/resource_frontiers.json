@@ -1,0 +1,272 @@
+[
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "inherited_fit_anchor",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 160,
+    "Smax_ms": 80,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 200,
+    "Smax_ms": 100,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 240,
+    "Smax_ms": 120,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 160,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "serial",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "no_batching",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  },
+  {
+    "scope": "uncalibrated_peak_sensitivity",
+    "Lmax_ms": 300,
+    "Smax_ms": 240,
+    "arm": "full",
+    "feasible_points": 0,
+    "vectors": [],
+    "witnesses": []
+  }
+]

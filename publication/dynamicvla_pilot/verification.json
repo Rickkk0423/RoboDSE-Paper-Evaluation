@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "python_cpp_comparisons": [
+    {
+      "mode": "serial",
+      "k": 1,
+      "batching": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "requests": 24
+    },
+    {
+      "mode": "pipelined",
+      "k": 1,
+      "batching": true,
+      "max_abs_error": 0.0,
+      "requests": 24
+    },
+    {
+      "mode": "pipelined",
+      "k": 2,
+      "batching": true,
+      "max_abs_error": 0.0,
+      "requests": 24
+    },
+    {
+      "mode": "pipelined",
+      "k": 3,
+      "batching": true,
+      "max_abs_error": 0.0,
+      "requests": 24
+    },
+    {
+      "mode": "pipelined",
+      "k": 2,
+      "batching": false,
+      "max_abs_error": 0.0,
+      "requests": 24
+    },
+    {
+      "mode": "pipelined",
+      "k": 3,
+      "batching": false,
+      "max_abs_error": 0.0,
+      "requests": 24
+    }
+  ],
+  "verified_run_directories": 492,
+  "physical_validation": false,
+  "task_episodes": 0
+}

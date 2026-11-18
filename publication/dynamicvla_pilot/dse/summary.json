@@ -1,0 +1,18 @@
+{
+  "configurations": 288,
+  "candidate_points": 1440,
+  "checks960": 288,
+  "max_check_relative_error": 1.9542948260650942e-10,
+  "prefix_operations": 569,
+  "dit_operations_per_step": 140,
+  "prefix_GFLOP": 159.431847936,
+  "dit_GFLOP": 41.63328,
+  "prefix_weight_stream_GB": 0.820209024,
+  "dit_weight_stream_GB": 1.9800832,
+  "kv_MB": 1.59744,
+  "activation_working_set_MB": 28.311552,
+  "neuSim_resolved_shapes": 444,
+  "analytic_conv_calls": 107136,
+  "independent_hardware_validation": false,
+  "task_episodes": 0
+}

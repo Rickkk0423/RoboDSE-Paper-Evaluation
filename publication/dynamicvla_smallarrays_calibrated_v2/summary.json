@@ -1,0 +1,21 @@
+{
+  "hardware_identities": 81,
+  "configurations": 621,
+  "candidate_points": 3104,
+  "checks960": 621,
+  "unique_960_runs": 594,
+  "python_cpp_checks": 18,
+  "max_relative_error": 3.9387420765684144e-10,
+  "max_python_cpp_abs_error": 4.440892098500626e-16,
+  "target_latency_ms": [
+    100,
+    300
+  ],
+  "target_is_exploratory": true,
+  "new_gpu_runs": 0,
+  "new_ramulator_runs": 0,
+  "task_episodes": 0,
+  "calibration_model": "dynamicvla",
+  "calibration_scope": "dynamicvla_native_ramulator",
+  "calibration_sha256": "11af3177cbcca0cc58bb7682caa0acd1c653289ef0f1e50a1f36c95a67bd299b"
+}

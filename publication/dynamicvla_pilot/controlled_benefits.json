@@ -1,0 +1,14 @@
+[
+  {
+    "k": 2,
+    "S_reduction_pct": 34.274949637531826,
+    "dit_traffic_reduction_pct": 49.59985122673798,
+    "total_traffic_reduction_pct": 35.13446985075481
+  },
+  {
+    "k": 3,
+    "S_reduction_pct": 41.2105057987113,
+    "dit_traffic_reduction_pct": 59.519821472086875,
+    "total_traffic_reduction_pct": 42.161363820907994
+  }
+]
